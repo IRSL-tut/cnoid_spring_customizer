@@ -1,0 +1,21 @@
+springs:
+  - joint_name: "joint0"
+    K: 1e3
+    D: 10
+    upper_limit:  1.0
+    lower_limit: -1.0
+  - joint_name: "joint1"
+    K: 1e3
+    D: 10
+    upper_limit:  1.0
+    lower_limit: -1.0
+  - joint_name: "joint2"
+    K: 1e3
+    D: 10
+    upper_limit:  1.0
+    lower_limit: -1.0
+  - joint_name: "joint3"
+    K: 1e3
+    D: 10
+    upper_limit:  1.0
+    lower_limit: -1.0
