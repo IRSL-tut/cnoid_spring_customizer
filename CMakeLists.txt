@@ -11,13 +11,13 @@ find_package(yaml-cpp REQUIRED)
 
 ### debug print variables
 ##get_cmake_property(_variableNames CACHE_VARIABLES)
-get_cmake_property(_variableNames VARIABLES)
-message("VARIABLES>>>>")
-list (SORT _variableNames)
-foreach (_variableName ${_variableNames})
-  message("${_variableName}=${${_variableName}}")
-endforeach()
-message("VARIABLES<<<<")
+#get_cmake_property(_variableNames VARIABLES)
+#message("VARIABLES>>>>")
+#list (SORT _variableNames)
+#foreach (_variableName ${_variableNames})
+#  message("${_variableName}=${${_variableName}}")
+#endforeach()
+#message("VARIABLES<<<<")
 
 ###########
 ## Build ##
